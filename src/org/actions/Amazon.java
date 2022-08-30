@@ -16,7 +16,7 @@ public class Amazon {
 			driver.get("http://www.amazon.iN");
 			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
-			
+			System.out.println("Amazon Project");
 			
 
 	}
