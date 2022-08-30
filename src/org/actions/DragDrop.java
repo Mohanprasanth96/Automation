@@ -36,6 +36,7 @@ public class DragDrop {
 			WebElement salescreditdrag = driver.findElement(By.xpath("//li[@id='fourth'][2]"));
 			WebElement salescreditdrop = driver.findElement(By.xpath("(//div[@class='ui-widget-content'])[5]"));
 			acc.dragAndDrop(salescreditdrag, salescreditdrop).perform();
+			System.out.println("Updated DragDrop");
 
 	}     
 
