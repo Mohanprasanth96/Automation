@@ -52,7 +52,7 @@ public class Flipkart {
 			    
 			  WebElement addcart = driver.findElement(By.xpath("//button[@class='_2KpZ6l _2U9uOA _3v1-ww']"));
 			  addcart.click();
-
+              System.out.println("Updated flipkart");
 			
 	}
 
